@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elektronisches Liedblatt - 01.02.2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;500;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__title">
+          <p class="eyebrow">Evangelischer Gottesdienst</p>
+          <h1>Elektronisches Liedblatt</h1>
+          <p class="meta">01.02.2026 - Sonntag</p>
+        </div>
+        <div class="hero__badge">
+          <span class="badge__label">Lied 1</span>
+          <span class="badge__title">Let It Be</span>
+          <span class="badge__subtitle">The Beatles</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="song">
+          <div class="song__header">
+            <h2>Lied 1</h2>
+            <p>Let It Be - The Beatles</p>
+          </div>
+
+          <div class="song__grid">
+            <aside class="song__meta">
+              <div class="meta__block">
+                <h3>Hinweis</h3>
+                <p>
+                  Dieses Liedblatt ist fuer den Gottesdienst am 01.02.2026
+                  vorbereitet. Noten siehe rechts.
+                </p>
+              </div>
+              <div class="meta__block">
+                <h3>Textgroesse</h3>
+                <div class="size-controls" role="group" aria-label="Textgroesse">
+                  <button type="button" data-size="sm">A-</button>
+                  <button type="button" data-size="md" class="is-active">A</button>
+                  <button type="button" data-size="lg">A+</button>
+                </div>
+              </div>
+              <div class="meta__block callout">
+                <h3>Projektion</h3>
+                <p>
+                  In moderner Ansicht: klare Spalten, ruhige Kontraste,
+                  schnelle Orientierung.
+                </p>
+              </div>
+            </aside>
+
+            <div class="song__content">
+              <div class="panel">
+                <div class="panel__head">
+                  <h3>Noten</h3>
+                  <span class="chip">PNG</span>
+                </div>
+                <figure class="score">
+                  <img
+                    src="BeatlesLetItBe.png"
+                    alt="Noten zu Let It Be"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+
+              <div class="panel">
+                <div class="panel__head">
+                  <h3>Text</h3>
+                  <span class="chip">Lyrics</span>
+                </div>
+                <div id="lyrics" class="lyrics" data-size="md">
+                  <p class="lyrics__hint">
+                    Aus Copyright-Gruenden ist der vollstaendige Liedtext hier
+                    nicht enthalten.
+                  </p>
+                  <p class="lyrics__placeholder">
+                    Bitte den vollstaendigen Text hier einfuegen (strophenweise
+                    mit klaren Zeilenumbruechen).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Konfi - Elektronisches Liedblatt - Stand: 01.02.2026</p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
