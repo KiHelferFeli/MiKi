@@ -88,6 +88,13 @@ main,
   margin: 0 0 12px 0;
 }
 
+.hero__subtitle {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: clamp(22px, 2.8vw, 38px);
+  margin: 0 0 10px 0;
+  color: var(--accent-3);
+}
+
 .meta {
   color: var(--muted);
   margin: 0;
